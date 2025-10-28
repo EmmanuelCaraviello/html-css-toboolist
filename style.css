@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.firstbutton {
+    display: flex;
+    margin-right: 10px;
+    border: none;
+    padding:10px 20px;
+    background-color: #47ADF1;
+    color: #EDEDED;
+    border-radius: 5px;
+}
+
+.secondbutton {
+    display: flex;
+    border: none;
+    padding:10px 20px;
+    background-color:#F6F8F9;
+    color:#555555;
+    border-radius: 5px;
+}
