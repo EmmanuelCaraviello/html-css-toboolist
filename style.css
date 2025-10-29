@@ -4,20 +4,105 @@
 }
 
 .firstbutton {
-    display: flex;
     margin-right: 10px;
     border: none;
     padding:10px 20px;
     background-color: #47ADF1;
-    color: #EDEDED;
+    color: #FFFFFF;
     border-radius: 5px;
 }
 
 .secondbutton {
-    display: flex;
     border: none;
     padding:10px 20px;
-    background-color:#F6F8F9;
+    background-color:#EDEDED;
     color:#555555;
     border-radius: 5px;
 }
+
+body {
+    background-color:#F6F8F9; 
+    font-family: system, Arial;
+    line-height: 1.5;
+    color:#222;
+    margin: 0;
+}
+
+.board {
+    max-width: 1000px;
+    margin: 24px auto;
+    background-color: #fff;
+    padding: 24px 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-top: 1px solid #EEE;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.check {
+    color: green;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cross {
+    color: red;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.editorial { background-color: #45ABEA; }
+.q1-goals { background-color: #9C72E4; }
+.recruiting { background-color: #64C0A9; }
+.mobile { background-color: #F29E33; }
+.website { background-color: #D863A1; }
+.sales { background-color: #B0C926; }
+
+.section ul li:first-child { border-top: none; }
+
+.check { border: 2px solid #64C0A9; color: #64C0A9; }
+
+.cross { border: 2px solid #E74C3C; color: #E74C3C; }
+
+
